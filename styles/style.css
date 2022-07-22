@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+main {
+  width: 1400px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+section {
+  background-color: white;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 10px;
+}
+/* Banner Section */
+.header-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: black;
+  border-radius: 15px;
+  padding: 50px;
+}
+.header-text {
+  color: white;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 45px;
+}
+.header {
+  font-size: 70px;
+  line-height: 82px;
+  margin-bottom: 15px;
+}
+.header-para {
+  margin-bottom: 25px;
+}
+.banner-image {
+  text-align: center;
+}
+/* Buttons */
+.btn {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  user-select: none;
+  line-height: 1.5;
+}
+
+.button-danger {
+  background-color: #dd0000;
+}
+.banner-button {
+  margin-left: 35px;
+}
+.icons {
+  margin-left: 15px;
+}
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 576px) {
+  .header-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    border-radius: 15px;
+    padding: 5px;
+  }
+  .header {
+    font-size: 22px;
+    line-height: 33px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin: 15px 0;
+  }
+  .header-text {
+    color: white;
+    display: block;
+    padding-left: 0;
+  }
+  .header-para {
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .no-break {
+    display: none;
+  }
+  .banner-button {
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .order-0 {
+    order: 0;
+    -webkit-order: 0;
+  }
+  .order-1 {
+    order: 1;
+    -webkit-order: 1;
+  }
+  .order-2 {
+    order: 2;
+    -webkit-order: 3;
+  }
+  .order-3 {
+    order: 3;
+    -webkit-order: 3;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+  .header {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 15px;
+  }
+}
+
+/* Feature Section */
+
+.feature-section {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: red;
+}
