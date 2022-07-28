@@ -326,3 +326,28 @@ li a.active {
   line-height: 20px;
   margin-top: 0;
 }
+
+footer {
+  height: 177px;
+  text-align: center;
+  background-color: #0b0d17;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn-links {
+  font-family: "Lobster";
+  font-style: normal;
+  /* font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  color: #ff5959;
+  margin: 0;
+  font-style: oblique; */
+}
+.btn-link {
+  color: aliceblue;
+  text-decoration: none;
+}
